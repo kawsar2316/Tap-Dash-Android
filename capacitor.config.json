@@ -1,0 +1,13 @@
+{
+  "appId": "com.tapdash.game",
+  "appName": "Tap Dash",
+  "webDir": "../artifacts/tap-dash/dist/public",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#0f0c29"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

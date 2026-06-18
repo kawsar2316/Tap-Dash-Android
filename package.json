@@ -1,0 +1,17 @@
+{
+  "name": "tap-dash-android",
+  "version": "1.0.0",
+  "description": "Tap Dash Android app via Capacitor",
+  "scripts": {
+    "build:web": "cd ../artifacts/tap-dash && PORT=3000 BASE_PATH=/ NODE_ENV=production npx vite build --config vite.config.ts",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}
